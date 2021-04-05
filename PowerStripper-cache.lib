@@ -1,0 +1,192 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_LED-Indication-Discrete_151033RS03000
+#
+DEF dk_LED-Indication-Discrete_151033RS03000 D 0 0 Y Y 1 F N
+F0 "D" -150 150 60 H V C CNN
+F1 "dk_LED-Indication-Discrete_151033RS03000" 0 -150 60 H V C CNN
+F2 "digikey-footprints:LED_3mm_Radial" 200 200 60 H I L CNN
+F3 "https://katalog.we-online.de/led/datasheet/151033RS03000.pdf" 200 300 60 H I L CNN
+F4 "732-5013-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "151033RS03000" 200 500 60 H I L CNN "MPN"
+F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
+F7 "LED Indication - Discrete" 200 700 60 H I L CNN "Family"
+F8 "https://katalog.we-online.de/led/datasheet/151033RS03000.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/wurth-electronics-inc/151033RS03000/732-5013-ND/4490003" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "LED RED CLEAR 3MM ROUND T/H" 200 1000 60 H I L CNN "Description"
+F11 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Slide-Switches_EG1218
+#
+DEF dk_Slide-Switches_EG1218 S 0 0 Y Y 1 F N
+F0 "S" -150 90 50 H V C CNN
+F1 "dk_Slide-Switches_EG1218" 0 -210 50 H V C CNN
+F2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" 200 200 50 H I L CNN
+F3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 300 60 H I L CNN
+F4 "EG1903-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "EG1218" 200 500 60 H I L CNN "MPN"
+F6 "Switches" 200 600 60 H I L CNN "Category"
+F7 "Slide Switches" 200 700 60 H I L CNN "Family"
+F8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "SWITCH SLIDE SPDT 200MA 30V" 200 1000 60 H I L CNN "Description"
+F11 "E-Switch" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C -90 0 14 0 1 0 F
+C 90 -100 14 0 1 0 F
+C 100 100 14 0 1 0 F
+P 2 0 1 0 -80 0 120 90 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X ~ 2 -200 0 100 R 50 50 1 1 P
+X ~ 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_USB-DVI-HDMI-Connectors_0548190519
+#
+DEF dk_USB-DVI-HDMI-Connectors_0548190519 J 0 40 Y Y 1 F N
+F0 "J" -225 500 60 H V C CNN
+F1 "dk_USB-DVI-HDMI-Connectors_0548190519" -325 -225 60 V V C CNN
+F2 "digikey-footprints:USB_Mini_B_Female_548190519" 200 200 60 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/548190519_sd.pdf" 200 300 60 H I L CNN
+F4 "WM17115-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "0548190519" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "USB, DVI, HDMI Connectors" 200 700 60 H I L CNN "Family"
+F8 "https://www.molex.com/pdm_docs/sd/548190519_sd.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/molex/0548190519/WM17115-ND/773802" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN RCPT USB2.0 MINI B 5P R/A" 200 1000 60 H I L CNN "Description"
+F11 "Molex" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -15 -225 -105 -175 0 1 0 F
+S -15 -125 -105 -75 0 1 0 F
+S -15 -25 -105 25 0 1 0 F
+S -15 75 -105 125 0 1 0 F
+S -15 175 -105 225 0 1 0 F
+S 25 -280 -45 280 0 1 0 N
+S 75 -175 25 -225 0 1 0 F
+S 75 -75 25 -125 0 1 0 F
+S 75 25 25 -25 0 1 0 F
+S 75 125 25 75 0 1 0 F
+S 75 225 25 175 0 1 0 F
+S 115 -323 155 -248 0 1 0 N
+S 115 325 155 250 0 1 0 N
+P 2 0 1 0 -175 220 -175 -220 N
+P 3 0 1 0 -175 -220 -115 -280 -45 -280 N
+P 3 0 1 0 -175 220 -115 280 -45 280 N
+P 10 0 1 0 155 -30 155 425 27 425 9 422 -1 417 -71 361 -84 354 -100 350 -225 350 -225 -75 N
+P 10 0 1 0 155 32 155 -423 27 -423 9 -420 -1 -415 -71 -359 -84 -352 -100 -348 -225 -348 -225 77 N
+P 16 0 1 0 195 -100 195 440 195 450 190 460 180 465 170 465 11 465 -9 462 -22 456 -105 390 -240 390 -250 390 -260 385 -265 375 -265 365 -265 -75 f
+P 16 0 1 0 195 102 195 -438 195 -448 190 -458 180 -463 170 -463 11 -463 -9 -460 -22 -454 -105 -388 -240 -388 -250 -388 -260 -383 -265 -373 -265 -363 -265 77 f
+P 18 0 1 0 175 -95 175 420 175 430 170 440 160 445 150 445 14 445 0 443 -12 436 -81 381 -96 372 -107 370 -220 370 -230 370 -240 365 -245 355 -245 345 -245 -75 N
+P 18 0 1 0 175 97 175 -418 175 -428 170 -438 160 -443 150 -443 14 -443 0 -441 -12 -434 -81 -379 -96 -370 -107 -368 -220 -368 -230 -368 -240 -363 -245 -353 -245 -343 -245 77 N
+X ~ 1 300 200 105 L 50 50 1 1 P
+X ~ 2 300 100 105 L 50 50 1 1 P
+X ~ 3 300 0 105 L 50 50 1 1 P
+X ~ 4 300 -100 105 L 50 50 1 1 P
+X ~ 5 300 -200 105 L 50 50 1 1 P
+X ~ SH -200 -500 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_USB-DVI-HDMI-Connectors_UE27AC54100
+#
+DEF dk_USB-DVI-HDMI-Connectors_UE27AC54100 J 0 40 Y Y 1 F N
+F0 "J" -50 375 60 H V C CNN
+F1 "dk_USB-DVI-HDMI-Connectors_UE27AC54100" -125 75 60 V V C CNN
+F2 "digikey-footprints:USB_A_Female_UE27AC54100" 200 200 60 H I L CNN
+F3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" 200 300 60 H I L CNN
+F4 "UE27AC54100-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "UE27AC54100" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "USB, DVI, HDMI Connectors" 200 700 60 H I L CNN "Family"
+F8 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/amphenol-icc-commercial-products/UE27AC54100/UE27AC54100-ND/1972253" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN RCPT USB2.0 TYPEA 4POS R/A" 200 1000 60 H I L CNN "Description"
+F11 "Amphenol ICC (Commercial Products)" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -50 -175 -75 275 0 1 0 f
+S 50 250 0 -150 0 1 0 N
+S 100 -75 75 -125 0 1 0 F
+S 100 25 75 -25 0 1 0 F
+S 100 125 75 75 0 1 0 F
+S 100 175 75 225 0 1 0 F
+S 150 -200 -25 -225 0 1 0 f
+S 150 300 -25 325 0 1 0 f
+S 175 275 200 -175 0 1 0 f
+P 2 0 1 0 50 -150 75 -175 N
+P 2 0 1 0 50 250 75 275 N
+P 2 0 1 0 200 -100 100 -100 N
+P 2 0 1 0 200 0 100 0 N
+P 2 0 1 0 200 100 100 100 N
+P 2 0 1 0 200 200 100 200 N
+P 19 0 1 0 -25 250 -25 -150 -25 -157 -24 -162 -22 -169 -16 -174 -9 -175 -5 -174 -3 -175 -2 -174 0 -175 75 -175 75 275 0 275 -7 272 -16 267 -20 263 -23 259 -25 250 N
+P 25 0 1 0 -25 -200 150 -200 156 -198 164 -195 168 -189 172 -185 173 -179 175 -175 175 275 174 279 174 280 173 286 167 294 160 299 150 300 -25 300 -32 298 -44 289 -48 281 -50 275 -50 -175 -48 -184 -42 -193 -36 -198 -25 -200 f
+X ~ 1 300 -100 100 L 50 50 1 1 P
+X ~ 2 300 0 100 L 50 50 1 1 P
+X ~ 3 300 100 100 L 50 50 1 1 P
+X ~ 4 300 200 100 L 50 50 1 1 P
+X ~ SH 125 -325 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+#End Library
