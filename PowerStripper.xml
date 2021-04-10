@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/Users/eokovacs/Documents/GitHub/powerstripper/PowerStripper.sch</source>
-    <date>Monday, April 05, 2021 at 11:19:53 AM</date>
-    <tool>Eeschema (5.1.9-0-10_14)</tool>
+    <source>C:\Users\eokovacs\Documents\git\powerstripper\PowerStripper.sch</source>
+    <date>4/10/2021 10:06:47 AM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>PowerStripper</title>
@@ -223,50 +223,50 @@
   </libparts>
   <libraries>
     <library logical="Device">
-      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
     <library logical="dk_LED-Indication-Discrete">
-      <uri>/Users/eokovacs/Documents/digikey-kicad-library/digikey-symbols/dk_LED-Indication-Discrete.lib</uri>
+      <uri>C:/Users/eokovacs/Documents/git/digikey-kicad-library/digikey-symbols/dk_LED-Indication-Discrete.lib</uri>
     </library>
     <library logical="dk_Slide-Switches">
-      <uri>/Users/eokovacs/Documents/digikey-kicad-library/digikey-symbols/dk_Slide-Switches.lib</uri>
+      <uri>C:/Users/eokovacs/Documents/git/digikey-kicad-library/digikey-symbols/dk_Slide-Switches.lib</uri>
     </library>
     <library logical="dk_USB-DVI-HDMI-Connectors">
-      <uri>/Users/eokovacs/Documents/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib</uri>
+      <uri>C:/Users/eokovacs/Documents/git/digikey-kicad-library/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="D-">
-      <node ref="J1" pin="2"/>
-      <node ref="J2" pin="2"/>
+    <net code="1" name="GND">
+      <node ref="J2" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="SH"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J1" pin="SH"/>
+      <node ref="J1" pin="5"/>
+      <node ref="S1" pin="1"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="2" name="D+">
-      <node ref="J1" pin="3"/>
-      <node ref="J2" pin="3"/>
+    <net code="2" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
     </net>
-    <net code="3" name="Net-(J1-Pad4)">
-      <node ref="J1" pin="4"/>
-    </net>
-    <net code="4" name="Net-(D1-Pad1)">
+    <net code="3" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1"/>
       <node ref="R1" pin="1"/>
     </net>
-    <net code="5" name="Net-(J1-Pad1)">
+    <net code="4" name="D-">
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="5" name="D+">
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="7" name="Net-(J1-Pad1)">
       <node ref="J1" pin="1"/>
       <node ref="S1" pin="2"/>
-    </net>
-    <net code="6" name="GND">
-      <node ref="J2" pin="SH"/>
-      <node ref="J2" pin="4"/>
-      <node ref="J2" pin="1"/>
-      <node ref="R1" pin="2"/>
-      <node ref="S1" pin="1"/>
-      <node ref="J1" pin="SH"/>
-      <node ref="J1" pin="5"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="7" name="Net-(S1-Pad3)">
-      <node ref="S1" pin="3"/>
     </net>
   </nets>
 </export>
