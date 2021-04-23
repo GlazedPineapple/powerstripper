@@ -18,7 +18,7 @@
   )
 
   (layers
-    (0 F.Cu signal)
+    (0 F.Cu signal hide)
     (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -209,7 +209,7 @@
     (fp_text reference J2 (at -0.075 -4.925 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value UE27AC54100 (at 0 12 90) (layer F.Fab)
+    (fp_text value UE27AC54100 (at 9.652 3.556) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -8.45 10.57) (end 8.45 10.57) (layer F.CrtYd) (width 0.05))
@@ -326,10 +326,10 @@
   (gr_text "PowerStripper V2\nElliot Kovacs" (at 100.838 105.41 90) (layer B.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_line (start 97.536 90.932) (end 155.448 90.932) (layer Edge.Cuts) (width 0.05) (tstamp 6072187B))
+  (gr_line (start 97.536 90.932) (end 134.874 90.932) (layer Edge.Cuts) (width 0.05) (tstamp 6072187B))
   (gr_line (start 97.536 121.92) (end 97.536 90.932) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 155.448 121.92) (end 97.536 121.92) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 155.448 90.932) (end 155.448 121.92) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 134.874 121.92) (end 97.536 121.92) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 134.874 90.932) (end 134.874 121.92) (layer Edge.Cuts) (width 0.05))
 
   (segment (start 110.998 102.08) (end 110.914 102.164) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 110.858 102.108) (end 110.914 102.164) (width 0.25) (layer B.Cu) (net 1))
