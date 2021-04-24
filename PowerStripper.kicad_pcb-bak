@@ -18,10 +18,10 @@
   )
 
   (layers
-    (0 L1TOP signal hide)
-    (1 L2 signal)
+    (0 L1TOP signal)
+    (1 L2 signal hide)
     (2 L3 signal hide)
-    (31 L4BOTTOM signal)
+    (31 L4BOTTOM signal hide)
     (33 F.Adhes user)
     (35 F.Paste user)
     (37 F.SilkS user)
@@ -328,8 +328,8 @@
   (gr_line (start 134.747 93.472) (end 92.5322 93.472) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 134.747 120.7516) (end 134.747 93.472) (layer Edge.Cuts) (width 0.05))
 
-  (segment (start 121.9708 96.2914) (end 125.5522 99.8728) (width 0.25) (layer L4BOTTOM) (net 2))
-  (segment (start 118.7196 96.2914) (end 121.9708 96.2914) (width 0.25) (layer L4BOTTOM) (net 2))
+  (segment (start 121.9708 96.2914) (end 125.5522 99.8728) (width 0.25) (layer L1TOP) (net 2))
+  (segment (start 118.7196 96.2914) (end 121.9708 96.2914) (width 0.25) (layer L1TOP) (net 2))
   (segment (start 113.792 112.2172) (end 112.252 110.6772) (width 0.441219) (layer L4BOTTOM) (net 3))
   (segment (start 114.422134 112.2172) (end 113.792 112.2172) (width 0.441219) (layer L4BOTTOM) (net 3))
   (segment (start 114.613571 112.260895) (end 114.520314 112.228263) (width 0.441219) (layer L4BOTTOM) (net 3))
