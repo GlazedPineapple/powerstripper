@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\eokovacs\Documents\git\powerstripper\PowerStripper.sch</source>
-    <date>4/10/2021 10:06:47 AM</date>
+    <date>4/23/2021 6:13:25 PM</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -46,25 +46,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>606BB0D9</tstamp>
     </comp>
-    <comp ref="J2">
-      <value>UE27AC54100</value>
-      <footprint>digikey-footprints:USB_A_Female_UE27AC54100</footprint>
-      <datasheet>https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</datasheet>
-      <fields>
-        <field name="Category">Connectors, Interconnects</field>
-        <field name="DK_Datasheet_Link">https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/amphenol-icc-commercial-products/UE27AC54100/UE27AC54100-ND/1972253</field>
-        <field name="Description">CONN RCPT USB2.0 TYPEA 4POS R/A</field>
-        <field name="Digi-Key_PN">UE27AC54100-ND</field>
-        <field name="Family">USB, DVI, HDMI Connectors</field>
-        <field name="MPN">UE27AC54100</field>
-        <field name="Manufacturer">Amphenol ICC (Commercial Products)</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="dk_USB-DVI-HDMI-Connectors" part="UE27AC54100" description="CONN RCPT USB2.0 TYPEA 4POS R/A"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>606AEEC6</tstamp>
-    </comp>
     <comp ref="S1">
       <value>EG1218</value>
       <footprint>digikey-footprints:Switch_Slide_11.6x4mm_EG1218</footprint>
@@ -102,6 +83,25 @@
       <libsource lib="dk_LED-Indication-Discrete" part="151033RS03000" description="LED RED CLEAR 3MM ROUND T/H"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>606BCCFE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>UE27AC54100</value>
+      <footprint>digikey-footprints:USB_A_Female_UE27AC54100</footprint>
+      <datasheet>https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/amphenol-icc-commercial-products/UE27AC54100/UE27AC54100-ND/1972253</field>
+        <field name="Description">CONN RCPT USB2.0 TYPEA 4POS R/A</field>
+        <field name="Digi-Key_PN">UE27AC54100-ND</field>
+        <field name="Family">USB, DVI, HDMI Connectors</field>
+        <field name="MPN">UE27AC54100</field>
+        <field name="Manufacturer">Amphenol ICC (Commercial Products)</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_USB-DVI-HDMI-Connectors" part="UE27AC54100" description="CONN RCPT USB2.0 TYPEA 4POS R/A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606AEEC6</tstamp>
     </comp>
   </components>
   <libparts>
@@ -236,37 +236,39 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="J2" pin="1"/>
-      <node ref="J2" pin="4"/>
-      <node ref="J2" pin="SH"/>
-      <node ref="R1" pin="2"/>
-      <node ref="J1" pin="SH"/>
-      <node ref="J1" pin="5"/>
-      <node ref="S1" pin="1"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="2" name="Net-(S1-Pad3)">
-      <node ref="S1" pin="3"/>
-    </net>
-    <net code="3" name="Net-(D1-Pad1)">
+    <net code="1" name="Net-(D1-Pad1)">
       <node ref="D1" pin="1"/>
       <node ref="R1" pin="1"/>
     </net>
-    <net code="4" name="D-">
-      <node ref="J2" pin="2"/>
-      <node ref="J1" pin="2"/>
+    <net code="2" name="GND">
+      <node ref="J1" pin="SH"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J2" pin="SH"/>
+      <node ref="J2" pin="4"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="5" name="D+">
+    <net code="3" name="D-">
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="4" name="D+">
       <node ref="J2" pin="3"/>
       <node ref="J1" pin="3"/>
     </net>
-    <net code="6" name="Net-(J1-Pad4)">
+    <net code="5" name="Net-(J1-Pad4)">
       <node ref="J1" pin="4"/>
     </net>
-    <net code="7" name="Net-(J1-Pad1)">
+    <net code="6" name="Net-(J1-Pad1)">
       <node ref="J1" pin="1"/>
       <node ref="S1" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad1)">
+      <node ref="S1" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
     </net>
   </nets>
 </export>
