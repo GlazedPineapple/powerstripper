@@ -360,10 +360,10 @@
   (segment (start 130.556 105.41) (end 130.556 106.68) (width 1.1) (layer F.Cu) (net 5))
   (segment (start 127.349 106.68) (end 127.311 106.718) (width 1.1) (layer F.Cu) (net 5))
   (segment (start 130.556 106.68) (end 127.349 106.68) (width 1.1) (layer F.Cu) (net 5))
-  (segment (start 113.848 99.878) (end 114.3 100.33) (width 1.1) (layer F.Cu) (net 8))
-  (segment (start 106.342 99.878) (end 113.848 99.878) (width 1.1) (layer F.Cu) (net 8))
   (segment (start 118.745 100.33) (end 118.8466 100.2284) (width 1.1) (layer F.Cu) (net 8))
   (segment (start 114.3 100.33) (end 118.745 100.33) (width 1.1) (layer F.Cu) (net 8))
+  (segment (start 113.848 99.878) (end 114.3 100.33) (width 1.1) (layer F.Cu) (net 8))
+  (segment (start 106.342 99.878) (end 113.848 99.878) (width 1.1) (layer F.Cu) (net 8))
 
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 0) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
