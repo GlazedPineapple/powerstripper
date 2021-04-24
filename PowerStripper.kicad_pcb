@@ -19,8 +19,8 @@
 
   (layers
     (0 L1TOP signal)
-    (1 L2 signal)
-    (2 L3 signal)
+    (1 L2 signal hide)
+    (2 L3 signal hide)
     (31 L4BOTTOM signal)
     (33 F.Adhes user)
     (35 F.Paste user)
