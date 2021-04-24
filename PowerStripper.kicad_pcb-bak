@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 4)
-    (tracks 36)
+    (tracks 35)
     (zones 0)
     (modules 5)
     (nets 9)
@@ -19,8 +19,8 @@
 
   (layers
     (0 F.Cu signal)
-    (1 In1.Cu signal hide)
-    (2 In2.Cu signal hide)
+    (1 In1.Cu signal)
+    (2 In2.Cu signal)
     (31 B.Cu signal)
     (33 F.Adhes user)
     (35 F.Paste user)
@@ -328,7 +328,6 @@
   (gr_line (start 135.255 88.9) (end 92.5068 88.9) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 135.255 127.25) (end 135.255 88.9) (layer Edge.Cuts) (width 0.05))
 
-  (segment (start 110.858 102.108) (end 110.914 102.164) (width 0.25) (layer B.Cu) (net 1))
   (segment (start 118.8466 107.8484) (end 118.8466 112.2426) (width 1.1) (layer B.Cu) (net 2))
   (segment (start 106.426 103.858) (end 106.342 103.942) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 106.358 104.394) (end 109.982 104.394) (width 1.7) (layer F.Cu) (net 3))
